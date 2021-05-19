@@ -5,7 +5,7 @@ import time
 def getWeather(canvas):
     #get the text from your entry field
     city = textfield.get()
-    api='http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=a2888feb3b1004999ca187d'
+    api='http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=a2888feb3b1004999crga187d'
     json_data = requests.get(api).json()
     #reading from json data file
     #returns if its sunny, cloudy, rainy
